@@ -1,0 +1,55 @@
+.container {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.mesajogo {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid deeppink;
+    color: deeppink;
+    background-color: #E6E6FA;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 24px;
+    color: deeppink;
+}
+
+.btn {
+    font-size: 20px;
+    border: 1px solid deeppink;;
+    border-radius: 20px;
+    background-color: deeppink;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+.divmesa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+#message {
+  color: deeppink;
+  font-size: 20px;
+  animation: blink 2s infinite;
+}
